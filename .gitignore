@@ -6,3 +6,4 @@ site/test-results/
 site/lighthouse-report.json
 .DS_Store
 AGENTS.md
+images/
