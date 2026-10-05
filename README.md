@@ -9,7 +9,7 @@ The app is designed for smartphones and tablets and keeps the table authoritativ
 
 Hunt Compantion is not affiliated with, endorsed by, or sponsored by Adam Poots Games, LLC.
 
-## Feedback and Issues
+## Support
 
 Bug reports, feature suggestions, and other project feedback are welcome. Open an issue on GitHub:
 
