@@ -1,0 +1,23 @@
+{
+  "name": "kdm-hunt-companion-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "check": "astro check",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test:e2e": "playwright test",
+    "test:lighthouse": "lighthouse http://127.0.0.1:4321/hunt-companion/ --output=json --output-path=./lighthouse-report.json --chrome-flags=\"--headless\" --quiet"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "astro": "^5.14.1",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "lighthouse": "^12.8.2"
+  }
+}
