@@ -56,7 +56,7 @@ lawfully be limited or excluded.
 
 ## 7. Privacy
 
-Our [Privacy Policy](https://github.com/fairbanxDE/hunt-companion-site/blob/main/PRIVACY.md) explains how the current release handles information. It forms part of these Terms by reference for that subject only.
+Our [Privacy Policy](https://github.com/fairbanxDE/hunt-companion-site/blob/main/privacy.md) explains how the current release handles information. It forms part of these Terms by reference for that subject only.
 
 ## 8. Stopping use
 
