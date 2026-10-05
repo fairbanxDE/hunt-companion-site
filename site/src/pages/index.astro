@@ -9,10 +9,10 @@ const values = [
 const features = [
   { number: '01', title: 'Select Quarry', text: 'Choose a monster and its level.', image: 'features/select-quarry.png', alt: 'White Lion Quarry selection on iPad.', focus: '18% 46%', zoom: '1.85', offset: '100px' },
   { number: '02', title: 'Extend the Hunt', text: 'Configure additional events before play.', image: 'features/select-gathering.png', alt: 'Gathering-event Placement instructions during Hunt setup on iPad.', focus: '85% 45%', zoom: '1.5', offset: '0px' },
-  { number: '03', title: 'View the Board', text: 'Keep movement, markers, and the current space together.', image: 'tour/navigate-ipad.png', alt: 'Digital Hunt Board on iPad.', focus: '51% 48%', zoom: '1.42', offset: '0px' },
-  { number: '04', title: 'Reveal Events', text: 'View Hunt Events and .', image: 'tour/resolve-ipad.png', alt: 'Hunt Event presentation on iPad.', focus: '57% 48%', zoom: '1.42', offset: '0px' },
-  { number: '05', title: 'Local-first save', text: 'Leave and resume a Hunt without losing its recorded state.', image: 'tour/resume-ipad.png', alt: 'Saved Hunt ready to resume on iPad.', focus: '70% 52%', zoom: '1.42', offset: '0px' },
-  { number: '06', title: 'Showdown handoff', text: 'Stop at the table boundary and hand the next phase back to physical play.', image: 'tour/navigate-ipad.png', alt: 'Hunt Board ready for the next physical decision on iPad.', focus: '70% 64%', zoom: '1.42', offset: '0px' },
+  { number: '03', title: 'View the Board', text: 'Keep movement, markers, and the current space together.', image: 'features/tokens-movement.png', alt: 'Hunt Board showing movement tokens and movement controls on iPad.', focus: '52% 68%', zoom: '1.42', offset: '0px' },
+  { number: '04', title: 'Reveal Events', text: 'View Hunt Events and .', image: 'features/quarry-event.png', alt: 'Hunt Event card showing a White Lion illustration on iPad.', focus: '50% 24%', zoom: '1.7', offset: '0px', offsetY: '48px' },
+  { number: '06', title: 'Showdown handoff', text: 'Stop at the table boundary and hand the next phase back to physical play.', image: 'features/hunt-summary.png', alt: 'Hunt Summary showing the recorded hunt result and End Hunt control on iPad.', focus: '50% 50%', zoom: '1.42', offset: '0px', offsetY: '28px' },
+  { number: '05', title: 'Local-first save', text: 'Leave and resume a Hunt without losing its recorded state.', image: 'features/hunt-library.png', alt: 'Hunt Library showing a saved White Lion hunt ready to resume on iPad.', focus: '50% 35%', zoom: '1.6', offset: '0px', offsetY: '18px' },
 ];
 ---
 <SiteLayout title="Hunt Companion — Guided Hunt play, designed for the table." description="Hunt Companion brings guided Hunt setup, board navigation, event recording, and local-first resume to iPhone and iPad without replacing physical play.">
@@ -49,7 +49,7 @@ const features = [
               <h3>{feature.title}</h3>
               <p>{feature.text}</p>
             </div>
-            <figure class="feature-preview" style={`--preview-focus: ${feature.focus}; --preview-zoom: ${feature.zoom}; --preview-offset: ${feature.offset}`}>
+            <figure class="feature-preview" style={`--preview-focus: ${feature.focus}; --preview-zoom: ${feature.zoom}; --preview-offset: ${feature.offset}; --preview-offset-y: ${feature.offsetY ?? '0px'}`}>
               <img src={`${base}/${feature.image}`} alt={feature.alt} width="1600" height="1280" loading="lazy" />
             </figure>
           </article>
@@ -68,7 +68,14 @@ const features = [
       </div>
     </section>
   </main>
-  <footer class="site-footer section-shell"><span>Hunt Companion</span><span>Assisted Hunt play, designed for the table.</span></footer>
+  <footer class="site-footer section-shell">
+    <nav class="site-footer-links" aria-label="Footer">
+      <a href="https://github.com/fairbanxDE/hunt-companion-site/blob/main/terms-of-use.md">Terms of Use</a>
+      <a href="https://github.com/fairbanxDE/hunt-companion-site/blob/main/privacy.md">Privacy</a>
+      <a href="https://github.com/fairbanxDE/hunt-companion-site/blob/main/support.md">Support</a>
+    </nav>
+    <span>Assisted Hunt play, designed for the table.</span>
+  </footer>
 </SiteLayout>
 
 <style>

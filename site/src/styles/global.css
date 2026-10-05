@@ -10,6 +10,9 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--brass);outline-offs
 :root{--muted:#b2a697;--surface:#2d2b26;--surface-2:#35322c;--line:#5a5043}
 .site-header{padding-block:22px}
 .site-header nav a,.site-footer{color:#c2b6a7}
+.site-footer-links{display:flex;gap:20px}
+.site-footer-links a{color:inherit;text-decoration:none}
+.site-footer-links a:hover,.site-footer-links a:focus{color:var(--brass)}
 .hero{min-height:590px;grid-template-columns:46% 54%;gap:18px;padding-block:52px}
 .hero h1{font-size:clamp(3rem,6vw,6.4rem);white-space:normal}
 .hero-devices{min-height:500px}
@@ -54,7 +57,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--brass);outline-offs
 .feature-copy h3{margin:16px 0 10px;font-size:clamp(1.35rem,2vw,1.75rem)}
 .feature-copy p{margin-bottom:0}
 .feature-preview{position:relative;min-height:100%;margin:0;overflow:hidden;background:var(--bg);border-left:1px solid var(--line)}
-.feature-preview img{display:block;width:100%;height:100%;object-fit:cover;transform:translateX(var(--preview-offset,0px)) scale(var(--preview-zoom,1.42));transform-origin:var(--preview-focus,50% 50%);filter:brightness(1.14) contrast(1.04)}
+.feature-preview img{display:block;width:100%;height:100%;object-fit:cover;transform:translate(var(--preview-offset,0px),var(--preview-offset-y,0px)) scale(var(--preview-zoom,1.42));transform-origin:var(--preview-focus,50% 50%);filter:brightness(1.14) contrast(1.04)}
 @media(max-width:720px){
   .feature-gallery{grid-template-columns:1fr;gap:14px;margin-top:30px}
   .feature-gallery .feature-card{grid-template-columns:1fr}
@@ -69,6 +72,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--brass);outline-offs
 @media(max-width:720px){
   .table-note{display:block;padding-block:60px}
   .table-note-copy{margin-top:25px}
+  .site-footer-links{margin-block:10px;flex-wrap:wrap;gap:10px 16px}
 }
 
 @font-face{font-family:Silverado;src:url('/hunt-companion-site/fonts/SilveradoLight.ttf') format('truetype');font-weight:300;font-display:swap}
