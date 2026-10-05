@@ -56,10 +56,7 @@ lawfully be limited or excluded.
 
 ## 7. Privacy
 
-Our Privacy Policy explains how the current release handles information. Before
-publication, make it available at a public URL and link it here:
-[Privacy Policy](privacy.md). It forms part of these Terms by reference for
-that subject only.
+Our [Privacy Policy](privacy.md) explains how the current release handles information. It forms part of these Terms by reference for that subject only.
 
 ## 8. Stopping use
 
