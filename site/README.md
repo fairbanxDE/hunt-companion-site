@@ -17,7 +17,7 @@ npm run test:e2e
 ```
 
 The production site is configured for the GitHub Pages project base path
-`/hunt-companion/`. Deployment is manual only; no workflow publishes on
+`/hunt-companion-site/`. Deployment is manual only; GitHub Actions publishes on
 push or pull request.
 
 ## Tour captures

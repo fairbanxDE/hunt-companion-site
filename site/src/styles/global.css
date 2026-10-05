@@ -70,3 +70,8 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--brass);outline-offs
   .table-note{display:block;padding-block:60px}
   .table-note-copy{margin-top:25px}
 }
+
+@font-face{font-family:Silverado;src:url('/hunt-companion-site/fonts/SilveradoLight.ttf') format('truetype');font-weight:300;font-display:swap}
+@font-face{font-family:Silverado;src:url('/hunt-companion-site/fonts/SilveradoMedium.ttf') format('truetype');font-weight:500;font-display:swap}
+@font-face{font-family:Nimbus;src:url('/hunt-companion-site/fonts/NimbusSansL-Regular.otf') format('opentype');font-weight:400;font-display:swap}
+@font-face{font-family:Nimbus;src:url('/hunt-companion-site/fonts/NimbusSansL-Bold.otf') format('opentype');font-weight:700;font-display:swap}
