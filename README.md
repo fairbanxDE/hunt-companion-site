@@ -11,14 +11,49 @@ Hunt Compantion is not affiliated with, endorsed by, or sponsored by Adam Poots 
 
 ## App Screenshots
 
-| Start screen | Content | Hunt setup 1 |
-| --- | --- | --- |
-| <img src="screenshots/start_sreen.png" alt="Hunt Companion start screen" width="280"> | <img src="screenshots/content_screen.png" alt="Hunt Companion content screen" width="280"> | <img src="screenshots/hunt_setup_screen_1.png" alt="Hunt Companion hunt setup screen" width="280"> |
+Click a screenshot to view it at full size.
 
-| Hunt setup 2 | Hunt setup 3 | Hunt board |
-| --- | --- | --- |
-| <img src="screenshots/hunt_setup_screen_2.png" alt="Hunt Companion hunt setup options" width="280"> | <img src="screenshots/hunt_setup_screen_3.png" alt="Hunt Companion hunt setup summary" width="280"> | <img src="screenshots/hunt_board_screen.png" alt="Hunt Companion hunt board" width="280"> |
-
-| Hunt event detail 1 | Hunt event detail 2 | About |
-| --- | --- | --- |
-| <img src="screenshots/hunt_event_detail_1.png" alt="Hunt Companion hunt event detail" width="280"> | <img src="screenshots/hunt_event_detail_2.png" alt="Hunt Companion hunt event result" width="280"> | <img src="screenshots/about_screen.png" alt="Hunt Companion about screen" width="280"> |
+<table>
+  <tr>
+    <td align="center">
+      <a href="screenshots/start_sreen.png"><img src="screenshots/start_sreen.png" alt="Hunt Companion start screen" width="280"></a><br>
+      <sub><b>Start screen</b></sub>
+    </td>
+    <td align="center">
+      <a href="screenshots/content_screen.png"><img src="screenshots/content_screen.png" alt="Hunt Companion content screen" width="280"></a><br>
+      <sub><b>Content</b></sub>
+    </td>
+    <td align="center">
+      <a href="screenshots/hunt_setup_screen_1.png"><img src="screenshots/hunt_setup_screen_1.png" alt="Hunt Companion hunt setup screen 1" width="280"></a><br>
+      <sub><b>Hunt setup 1</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="screenshots/hunt_setup_screen_2.png"><img src="screenshots/hunt_setup_screen_2.png" alt="Hunt Companion hunt setup screen 2" width="280"></a><br>
+      <sub><b>Hunt setup 2</b></sub>
+    </td>
+    <td align="center">
+      <a href="screenshots/hunt_setup_screen_3.png"><img src="screenshots/hunt_setup_screen_3.png" alt="Hunt Companion hunt setup screen 3" width="280"></a><br>
+      <sub><b>Hunt setup 3</b></sub>
+    </td>
+    <td align="center">
+      <a href="screenshots/hunt_board_screen.png"><img src="screenshots/hunt_board_screen.png" alt="Hunt Companion hunt board" width="280"></a><br>
+      <sub><b>Hunt board</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="screenshots/hunt_event_detail_1.png"><img src="screenshots/hunt_event_detail_1.png" alt="Hunt Companion hunt event detail 1" width="280"></a><br>
+      <sub><b>Hunt event detail 1</b></sub>
+    </td>
+    <td align="center">
+      <a href="screenshots/hunt_event_detail_2.png"><img src="screenshots/hunt_event_detail_2.png" alt="Hunt Companion hunt event detail 2" width="280"></a><br>
+      <sub><b>Hunt event detail 2</b></sub>
+    </td>
+    <td align="center">
+      <a href="screenshots/about_screen.png"><img src="screenshots/about_screen.png" alt="Hunt Companion about screen" width="280"></a><br>
+      <sub><b>About</b></sub>
+    </td>
+  </tr>
+</table>
