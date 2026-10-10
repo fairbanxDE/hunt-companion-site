@@ -1,6 +1,9 @@
 # The Unofficial KD:M Hunt Companion
 
-[Hunt Companion](https://fairbanxde.github.io/hunt-companion-site/) is an unofficial, fan-made companion app for **Kingdom Death: Monster** (KD:M). It helps players prepare and follow a Hunt without replacing the physical game.
+Hunt Companion is an unofficial, fan-made companion app for **Kingdom Death: Monster** (KD:M). It helps players prepare and follow a Hunt without replacing the physical game.
+
+> **Development status:** Hunt Companion is currently under development and
+> has not been published or released.
 
 Features: choose a Quarry, configure the Hunt, navigate the digital Hunt
 Board, resolve Hunt Events, and resume a saved Hunt later.

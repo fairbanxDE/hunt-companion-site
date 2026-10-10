@@ -2,6 +2,9 @@
 
 **Last updated:** [2026-10-05]
 
+**Development status:** Hunt Companion is currently under development and has
+not been published or released.
+
 These Terms of Use explain the expectations for using **Hunt Companion** (the
 “App”). By installing or using the App, you agree to use it in accordance with
 these Terms and applicable law.
@@ -56,7 +59,7 @@ lawfully be limited or excluded.
 
 ## 7. Privacy
 
-Our [Privacy Policy](https://github.com/fairbanxDE/hunt-companion-site/blob/main/privacy.md) explains how the current release handles information. It forms part of these Terms by reference for that subject only.
+Our [Privacy Policy](https://github.com/fairbanxDE/hunt-companion-site/blob/main/privacy.md) explains how the current development version handles information. It forms part of these Terms by reference for that subject only.
 
 ## 8. Stopping use
 

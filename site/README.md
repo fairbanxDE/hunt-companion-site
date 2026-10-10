@@ -4,6 +4,9 @@ This is the static Astro showcase for the Hunt Companion. It is deliberately
 local-only: there are no analytics, cookies, forms, embeds, or external
 requests.
 
+The companion app is currently under development and has not been published
+or released. This site should be treated as a pre-release showcase.
+
 ## Development
 
 Use Node 22 (`.nvmrc`) and run from this directory:

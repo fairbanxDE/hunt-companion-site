@@ -2,6 +2,9 @@
 
 **Last updated:** [2026-10-05]
 
+**Development status:** Hunt Companion is currently under development and has
+not been published or released.
+
 Hunt Companion is a local-first smartphone and tablet app for tabletop Hunt
 play. It is an unofficial, fan-made companion for *Kingdom Death: Monster* and
 is not affiliated with, endorsed by, or sponsored by Adam Poots Games, LLC.
